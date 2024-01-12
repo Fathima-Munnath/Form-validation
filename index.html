@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body class="body">
+    <form class="form">
+        <table class="screen" border="0">
+            <tr>
+                <th colspan="2" id="element">Employee Details</th>
+            </tr>
+            <tr>
+              <td class="label" >First Name:</td>
+                <td>
+                  <input type="text" id="txtFirstName" class="highlight">
+                </td>
+            </tr>
+            <tr>
+                <td class="label" >Last Name:</td>
+                <td>
+                    <input type="text" id="txtLastName" class="highlight">
+                </td>
+            </tr>
+            <tr>
+                <td class="highlight">
+                    <input type="radio" title="Male" value="Male" name="gender">
+                    Male
+                </td>
+                <td class="highlight">
+                    <input type="radio" title="Female" value="Female" name="gender">
+                    Female
+                </td>
+                <tr>
+				<td><label  class="label" id=Dob for="date-input">Date of Birth:</label></td>
+				<td><input type="date"  class="highlight" name="date-input"></td>
+			  </tr>
+            </tr>
+            <tr>
+                <td class="label" >Employee ID:</td>
+                <td>
+                    <input type="text" class="highlight" id="txtEmployeeID">
+                </td>
+            </tr>
+            <tr>
+                <td class="label" >Phone Number:</td>
+                <td>
+                    <input type="text" class="highlight" id="txtPhoneNumber">
+                </td>
+            </tr>
+            <tr>
+                <td> <label class="label" for="employeeEmail">Email:</label></td>
+                    
+                <td> <input class="highlight" type="email" id="employeeEmail" ></td>
+               
+            
+              <tr>
+                <td></td>
+                <td>  <button onclick="validate()" class="highlight">Submit</button> </td>
+            </tr>
+        </form>
+
+    </body>
+    </html>
+    
+                          
+   
